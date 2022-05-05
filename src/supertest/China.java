@@ -1,22 +1,23 @@
 package supertest;
 
-public class China extends Perosn{
+public class China extends Perosn {
 
-//    public China() {
-//
+    public China() {
+
+//super();
 //        //若父类中不存在无参构造，则子类构造方法的首行必须使用super(有参构造)；
 //        //当父类不存在无参构造的时候，子类不能在构造方法中既调用super又调用this
 ////        super("呆呆");
-//        System.out.println("China的无参构造");
-//    }
-
-    public China(String name) {
-//        this();
-        super(name);
-
-        System.out.println("China的有参构造");
+        System.out.println("China的无参构造");
     }
 
+    public China(String name) {
+//        super();
+        this();
+//        super(name);
+//        this.name = name;
+        System.out.println("China的有参构造");
+    }
 
 
     public void fun() {
@@ -39,9 +40,9 @@ public class China extends Perosn{
         /**
          * 只要存在继承关系，当你产生的是一个子类对象，向上搜索，所有父类的对象都要产生
          */
-        China china = new China("呆呆");
-        china.setAge(10);
-        china.test();
+        China china = new China("dd");
+//        china.setAge(10);
+//        china.test();
 
 //        china.fun();
     }

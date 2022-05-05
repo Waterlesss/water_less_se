@@ -1,16 +1,15 @@
 package supertest;
 
-public class Perosn extends Animal{
+public class Perosn {
     protected String name = "person";
 
-    /**
-     * person默认的无参构造不再产生
-     * @param name
-     */
+  public Perosn() {
+      System.out.println("Person的无参构造");
+  }
     public Perosn(String name) {
-        super(name);
+//        super(name);
 //        super();
-        this.name = name;
+//        this.name = name;
         System.out.println("person的有参构造"+ name);
     }
 
@@ -25,9 +24,9 @@ public class Perosn extends Animal{
 //        System.out.println(super.name);
     }
 
-    public static void main(String[] args) {
-        Perosn perosn = new Perosn("喵喵");
-    }
+//    public static void main(String[] args) {
+//        Perosn perosn = new Perosn("喵喵");
+//    }
 
 }
 

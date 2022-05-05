@@ -10,13 +10,14 @@ public class Animal {
         Animal cat = new Cat();
         animal.fun(animal);
         animal.fun(bird);
+        bird.eat();
         animal.fun(duck);
         animal.fun(cat);
 //        fun(new Animal());
 //        fun(new Bird());
 //        fun(new Duck());
     }
-    public  void fun(Animal animal) {
+    public void fun(Animal animal) {
         animal.eat();
     }
 

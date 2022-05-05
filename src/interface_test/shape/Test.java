@@ -4,7 +4,9 @@ public class Test {
     public static void main(String[] args) {
         //抽象类无法直接实例化对象
 //        Shape shape = new Shape();
-        fun(new Cycle());
+        //子类向上转型变为抽象父类的引用
+        Shape cycle = new Cycle();
+        cycle.print();
         fun(new Square());
         fun(new Triangle());
     }
