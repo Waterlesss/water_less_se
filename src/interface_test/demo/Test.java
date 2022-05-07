@@ -11,11 +11,7 @@ interface IB{
 //接口之间存在继承关系，可以多继承。
 //接口坚决不能继承一个类
 interface IC extends IA,IB{
-    @Override
-    void testA();
 
-    @Override
-    void testB();
 }
 class CImpl implements IC{
 

@@ -4,9 +4,9 @@ public class Computer {
 
     public static void main(String[] args) {
         Computer computer = new Computer();
-        Mouse mouse = new Mouse();
-        Keyboard keyboard = new Keyboard();
-        Camera camera = new Camera();
+        USB mouse = new Mouse();
+        USB keyboard = new Keyboard();
+        USB camera = new Camera();
         computer.fun(mouse);
         computer.fun(keyboard);
         computer.fun(camera);
