@@ -3,18 +3,11 @@ package string_test;
 import java.sql.SQLOutput;
 
 public class StringTest {
-//    String pattern = "abba";
-//    String s;
     public boolean wordPattern(String pattern, String s) {
 
         return false;
     }
     public static void main(String[] args) {
-        String s;
-        String pattern = "abba";
-        char[] data = pattern.toCharArray();
-        int i = 0;
-        System.out.println(data[0]==);
 //        String str ="hello world";
 //        String str1 = str;
 //        str1 = "Hello";
