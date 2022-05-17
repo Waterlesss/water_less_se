@@ -93,6 +93,8 @@ public class StringTest {
 //        String str = "hello world";
 //        //判断一个子字符串是否存在
 //        System.out.println(str.contains("hello"));
+          //查询字符串中第一次出现的元素的索引
+//        System.out.println(str.indexOf('h'));
 //        //判断是否以指定的字符串开头
 //        System.out.println(str.startsWith("hello"));
 //        //从指定位置开始判断
