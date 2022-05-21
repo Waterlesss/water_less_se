@@ -3,20 +3,22 @@ package supertest;
 public class Perosn {
     protected String name = "person";
 
-  public Perosn() {
-      System.out.println("Person的无参构造");
-  }
+    public Perosn() {
+        System.out.println("Person的无参构造" + name);
+    }
+
     public Perosn(String name) {
+//          this();
 //        super(name);
 //        super();
 //        this.name = name;
-        System.out.println("person的有参构造"+ name);
+        System.out.println("person的有参构造" + name);
     }
 
-   // public Perosn() {
-   //     super();
+    // public Perosn() {
+    //     super();
     //    System.out.println("Person的无参构造");
-   // }
+    // }
 //    private  String name = "preson";
 
     public void fun() {
