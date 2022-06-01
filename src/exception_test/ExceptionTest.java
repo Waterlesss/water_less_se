@@ -23,7 +23,8 @@ public class ExceptionTest {
         } catch (NullPointerException e) {
             System.out.println("exist exception~~~");
         } catch (Exception e) {
-            System.out.println("exist exception");
+            //在命令行打印异常信息在程序中出错的位置及原因
+            e.printStackTrace();
         }finally {
             //无论异常是否产生，finally代码块都会执行，不要在finally代码块中写返回值
             System.out.println("after exception...");
