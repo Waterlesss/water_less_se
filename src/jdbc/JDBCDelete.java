@@ -33,6 +33,5 @@ public class JDBCDelete {
         System.out.println("删除成功，删除" + rows + "行");
         //7.关闭资源
         connection.close();
-
     }
 }
