@@ -1,13 +1,11 @@
 package reflect;
 
-import java.lang.reflect.Constructor;
 import java.lang.reflect.Field;
-import java.lang.reflect.Method;
 
 /**
  * @Author: Waterless
  * @Date: 2022/06/01/8:43
- * @Description:
+ * @Description: 反射
  */
 public class Test {
     public static void main(String[] args) throws Exception {
@@ -21,7 +19,7 @@ public class Test {
 //        System.out.println(cls1==cls3);
 
         //此时编译时类型是Person 运行时类型就是Student
-//        Person per = new Student();
+//        Student per = new Student();
 //        System.out.println(per.getClass());
 
 //        Class<Student> cls = Student.class;
